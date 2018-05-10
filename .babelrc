@@ -1,0 +1,21 @@
+{
+  "presets": [
+    "react",
+    "es2015",
+    ["env", {
+      "targets": {
+        "browsers": "last 2 versions"
+      },
+      "loose": true,
+      "modules": false
+    }]
+  ],
+  "plugins": [
+    "inline-react-svg",
+    "react-hot-loader/babel",
+    "transform-class-properties",
+    "transform-decorators",
+    "transform-object-rest-spread",
+    ["resolver", { "resolveDirs": ["common"] }]
+  ]
+}

@@ -1,0 +1,26 @@
+body, html {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Ubuntu, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-size: 1rem;
+  font-weight: normal; 
+  line-height: 1.5; 
+  color: #444444;
+}
+
+.dark-red {
+  color: red;
+}
+.h1 {
+  height: 8px;
+}
+
+.mt16 {
+  margin-top: 16px;
+}
+.mb4 {
+  margin-bottom: 4px;
+}
+.f7 {
+  font-size: 13px;
+}

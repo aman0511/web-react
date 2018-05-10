@@ -1,0 +1,1 @@
+export { MSGS } from './messages';
